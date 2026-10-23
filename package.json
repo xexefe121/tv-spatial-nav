@@ -1,0 +1,20 @@
+{
+  "name": "tv-spatial-nav",
+  "version": "0.1.0",
+  "description": "D-pad focus navigation for TV web apps (Fire TV, Android TV, smart-TV browsers). No dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": ["src", "index.d.ts"],
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "keywords": ["fire-tv", "android-tv", "smart-tv", "d-pad", "spatial-navigation", "10-foot-ui", "focus"],
+  "license": "MIT"
+}
